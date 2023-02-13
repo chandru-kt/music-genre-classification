@@ -22,7 +22,7 @@ seed = 12
 np.random.seed(seed)
 
 #Load dataset
-df = pd.read_csv('C:/Users/chandru kt/ml_pro/data/features_3_sec.csv')
+df = pd.read_csv('features_3_sec.csv')
 df = df.drop(['harmony_mean','harmony_var'], axis = 1)
 df.label.value_counts().reset_index()
 
